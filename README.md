@@ -1,3 +1,4 @@
+## Question schema
 ```javascript
 {
 	id: "1",
@@ -43,4 +44,22 @@
 		name: "test"
 	}
 	},
+```
+
+## Majors schema
+``` javascript
+{
+	majors: [
+		{
+			id: 1,
+			name: "test",
+			subjects: [
+			{
+				id: 1,
+				name: "test subject"
+			}
+	]
+	}
+]
+}
 ```
